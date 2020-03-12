@@ -3,7 +3,7 @@ module.exports = {
     title: `Good night sweet heart`,
     description: `Um site com histórias infantis com publicação de conteúdo 100% open source.`,
     author: `@marcos-paiva`,
-    siteUrl: `http://localhost:8000/`
+    siteUrl: `http://localhost:8000`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

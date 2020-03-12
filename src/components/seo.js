@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title, image:metaImage }) {
+function SEO({ description, lang, meta, title, image:metaImage, pathname }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -27,10 +27,8 @@ function SEO({ description, lang, meta, title, image:metaImage }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const image =
-    metaImage && metaImage.src
-      ? `${site.siteMetadata.siteUrl}${metaImage.src}`
-      : null
+  const image = metaImage && metaImage.src ? `${site.siteMetadata.siteUrl}${metaImage.src}` : null
+  const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : site.siteMetadata.siteUrl
 
   return (
     <Helmet
@@ -39,6 +37,7 @@ function SEO({ description, lang, meta, title, image:metaImage }) {
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
+      link={canonical ? [{ rel:`canonical`, href:canonical}] : null}
       meta={[
         {
           name: `description`,
@@ -102,6 +101,7 @@ SEO.defaultProps = {
   lang: `pt-BR`,
   meta: [],
   description: ``,
+  pathname: ``,
 }
 
 SEO.propTypes = {
@@ -111,9 +111,10 @@ SEO.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.shape({
     src: PropTypes.string.isRequired,
-    height: PropTypes.string.isRequired,
-    width: PropTypes.string.isRequired,
-  })
+    height: PropTypes.number.isRequired,
+    width: PropTypes.number.isRequired,
+  }),
+  pathname: PropTypes.string,
 }
 
 export default SEO
