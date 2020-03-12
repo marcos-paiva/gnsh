@@ -1,8 +1,7 @@
 import React from "react"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Container from '../components/container';
-import { graphql, Link } from "gatsby";
 
 export default ({data}) => {
   return(
