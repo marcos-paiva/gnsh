@@ -5,7 +5,6 @@ import Container from '../components/container';
 import { graphql, Link } from "gatsby";
 
 export default ({data}) => {
-  console.log(data)
   return(
     <Layout>
       <SEO title="Todo o conteúdo"/>
