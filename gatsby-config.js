@@ -16,18 +16,29 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-manifest`,
-    //   options: {
-    //     name: `Good night sweet heart`,
-    //     short_name: `GNSH`,
-    //     start_url: `/`,
-    //     background_color: `#ffffff`,
-    //     theme_color: `#ffffff`,
-    //     display: `minimal-ui`,
-    //     //icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Good night sweet heart`,
+        short_name: `GNSH`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
+        display: `minimal-ui`,
+        //icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        // your google analytics tracking id
+        trackingId: `UA-XXXXXXXX-X`,
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // enable ip anonymization
+        anonymize: true,
+      },
+    },
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
