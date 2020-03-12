@@ -13,14 +13,15 @@
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sharp": "^2.4.3",
     "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-transformer-remark": "^2.6.58",
     "gatsby-transformer-sharp": "^2.3.13",
+    "postcss-preset-env": "^6.7.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "postcss-loader": "^3.0.0",
     "prettier": "^1.19.1"
   },
   "keywords": [

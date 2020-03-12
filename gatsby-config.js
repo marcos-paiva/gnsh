@@ -3,6 +3,7 @@ module.exports = {
     title: `Good night sweet heart`,
     description: `Um site com histórias infantis com publicação de conteúdo 100% open source.`,
     author: `@marcos-paiva`,
+    siteUrl: `http://localhost:8000`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Good night sweet heart`,
+        short_name: `GNSH`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -33,6 +34,7 @@ module.exports = {
         postCssPlugins: [require(`postcss-preset-env`)({ stage: 2 })],
       },
     },
+    `gatsby-transformer-remark`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
