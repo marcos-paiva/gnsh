@@ -4,6 +4,9 @@
   "description": "Good night sweet heart é um site com histórinhas para dormir OpenSource",
   "version": "0.1.0",
   "author": "Marcos Paiva <eu.marcos.paiva@gmail.com>",
+  "engines": {
+    "node": "12.16.x"
+  },
   "dependencies": {
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.39",
