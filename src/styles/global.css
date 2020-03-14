@@ -1,12 +1,28 @@
-@custom-media --viewport-medium (width <= 50rem);
-@custom-selector :--heading h1, h2, h3, h4, h5, h6;
-
 :root {
-  --mainColor: #000000;
+  --mainColor: #F18871;
+  --mainColorSecondary: #F4D0C1;
+  --secondColor: #C7B053;
+  --textColor: #012722;
 }
+@custom-media --medium-viewport (min-width: 768px);
+@custom-media --desktop-viewport (min-width: 992px);
 
 body {
-  color: var(--mainColor);
-  font-family: system-ui;
-  overflow-wrap: break-word;
+  background-color: var(--mainColorSecondary);
+  color: var(--textColor);
+  font-size: 18px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+
+  @media (--desktop-viewport) {
+    width: 1140px;
+  }
 }

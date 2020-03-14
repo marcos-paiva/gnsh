@@ -29,20 +29,14 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-gtag`,
-      options: {
-        // your google analytics tracking id
-        trackingId: `UA-XXXXXXXX-X`,
-        // Puts tracking script in the head instead of the body
-        head: false,
-        // enable ip anonymization
-        anonymize: true,
-      },
-    },
-    {
       resolve: `gatsby-plugin-postcss`,
       options: {
-        postCssPlugins: [require(`postcss-preset-env`)({ stage: 2 })],
+        postCssPlugins: [
+            require(`postcss-preset-env`)({ stage: 2 }),
+            require(`precss`)(),
+            require(`postcss-normalize`)(),
+            require('autoprefixer')(),
+          ],
       },
     },
     `gatsby-transformer-remark`,
