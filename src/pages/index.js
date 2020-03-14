@@ -2,20 +2,22 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import covers from "../styles/modules/bookCover.module.css"
 
 export default ({data}) => {
   return(
     <Layout>
       <SEO title="Todo o conteúdo"/>
-      {data.allMarkdownRemark.edges.map( ({ node }) => (
-        <div key={node.id}>
-          <Link to={node.fields.slug}>
-          <h2>{node.frontmatter.title}</h2>
-          <h4>{node.frontmatter.date}</h4>
-          <p>{node.excerpt}</p>
-          </Link>
-        </div>
-      ))}
+        <ul className={covers.wrapper}>
+          {data.allMarkdownRemark.edges.map( ({ node }, index) => (
+          <li key={node.id} data-tale-number={index + 1}>
+            <Link to={node.fields.slug} className={covers.item}>
+            <h2>{node.frontmatter.title}</h2>
+            <p>{node.excerpt}</p>
+            </Link>
+          </li>
+          ))}
+        </ul>
     </Layout>
   )
 }
