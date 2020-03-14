@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import containerStyles from '../styles/modules/container.module.css'
 import Header from "./header"
 
 const Layout = ({ children }) => {
@@ -23,10 +22,10 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <main className="container">
       <Header siteTitle={data.site.siteMetadata.title} />
-      <main className={containerStyles.container}>{children}</main>
-    </>
+      {children}
+    </main>
   )
 }
 
