@@ -2,21 +2,23 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
+import texts from '../styles/modules/texts.module.css'
 
 export default ({ data }) => {
     const post = data.markdownRemark
     const image = post.frontmatter.featured ? post.frontmatter.featured.childImageSharp.resize : null
-    console.log(data);
 
     return(
         <Layout>
             <Seo
-                title={post.frontmatter.title}
-                image={image}
-                pathname={post.fields.slug}
-                />
-            <h1>{post.frontmatter.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+              title={post.frontmatter.title}
+              image={image}
+              pathname={post.fields.slug}
+            />
+            <article className={texts.article}>
+              <h1 className={texts.title}>{post.frontmatter.title}</h1>
+              <div dangerouslySetInnerHTML={{ __html: post.html }} className={texts.container} />
+            </article>
         </Layout>
     )
 }
