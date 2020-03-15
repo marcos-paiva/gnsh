@@ -11,11 +11,13 @@ export default ({data}) => {
       <SEO title="Todo o conteúdo"/>
         <ul className={coverStyle.wrapper}>
           {data.allMarkdownRemark.edges.map( ({ node }, index) => (
+
           <li key={node.id} data-tale-number={index + 1}>
             <Cover
               title={node.frontmatter.title}
               excerpt={node.excerpt}
               url={node.fields.slug}
+              image={node.frontmatter.featured.childImageSharp.fluid}
             />
           </li>
           ))}
@@ -34,6 +36,13 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
+            featured {
+              childImageSharp {
+                fluid(maxHeight: 800, jpegProgressive: true) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           fields {
             slug
