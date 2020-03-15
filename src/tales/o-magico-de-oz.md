@@ -24,7 +24,7 @@ Mais adiante, os três encontraram um Lenhador de Lata, que desejava possuir um 
 
 – Venha conosco! – convidou Doroti – O Mágico de Oz lhe dará um!
 
-
+![Imagem de um coelhinho](/images/o-magico-de-oz-1.jpg)
 
 Logo depois, os quatro encontraram um Leão. Os cinco amigos viajaram muitos dias pela estrada de tijolos amarelos. Depois de várias aventuras, chegaram ao castelo do Mágico de Oz. Um de cada vez foi levado à sala do trono para falar com ele.
 
