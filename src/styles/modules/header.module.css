@@ -1,0 +1,12 @@
+.logo {
+    display: block;
+    margin-bottom: var(--baselineDouble);
+}
+
+.header {
+    margin: var(--baseline) 0;
+}
+
+.mainTitle {
+    margin-bottom: var(--baseline);
+}
