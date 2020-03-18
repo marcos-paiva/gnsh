@@ -15,12 +15,12 @@ const bookCover = ({title, category, readtime, image, excerpt, url}) => {
 }
 
 bookCover.propTypes = {
-    title: PropTypes.node.isRequired,
-    category: PropTypes.node,
-    readtime: PropTypes.node,
-    image: PropTypes.node,
-    excerpt: PropTypes.node.isRequired,
-    url: PropTypes.node.isRequired
+    title: PropTypes.string.isRequired,
+    category: PropTypes.array,
+    readtime: PropTypes.number,
+    image: PropTypes.object,
+    excerpt: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired
 }
 
 export default bookCover
