@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Good night sweet heart`,
-    description: `Um site com histórias infantis com publicação de conteúdo 100% open source.`,
+    heroTitle: `Praticidade na hora de dormir`,
+    description: `Good night sweetheart é um site experimental que contém histórias e contos infantis para facilitar a hora de dormir da criançada.`,
     author: `@marcos-paiva`,
-    siteUrl: `http://localhost:8000`
+    siteUrl: `http://localhost:8000`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -54,9 +55,33 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `tales`,
         path: `${__dirname}/src/tales`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/static`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-react-svg`,
+      options: {
+        rule: {
+          include: /\.inline\.svg$/
+        }
+      }
+    },
+    {
+      resolve: `gatsby-plugin-web-font-loader`,
+      options: {
+        google: {
+          families: [`Merriweather:400`]
+        }
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
