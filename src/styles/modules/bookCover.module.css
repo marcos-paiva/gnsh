@@ -1,9 +1,3 @@
-:root {
-    --mainColor: #F18871;
-    --mainColorSecondary: #F4D0C1;
-    --secondColor: #C7B053;
-    --textColor: #012722;
-  }
 
 .wrapper {
     list-style: none;
@@ -16,7 +10,7 @@
 .item {
     padding: 30px;
     margin: 15px;
-    background-color: var(--mainColor);
+    background-color: var(--bgSecondColor);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
