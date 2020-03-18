@@ -1,0 +1,19 @@
+:root {
+    /* Defining colors */
+    --mainColor: #694561;
+    --secondColor: #CDB656;
+    --thirdColor: #F79A6F;
+    --greenColor: #046159;
+    --bgColor: #FCF4F2;
+    --bgSecondColor: #FDDAC7;
+    --textColor: #694561;
+
+    /* Defining baselines */
+    --baseline: 30px;
+    --baselineDouble: 60px;
+    --baselineHalf: 15px;
+  }
+  @custom-media --medium-viewport (min-width: 768px);
+  @custom-media --desktop-viewport (min-width: 992px);
+
+  @custom-selector :--heading h1, h2, h3, h4, h5, h6;
