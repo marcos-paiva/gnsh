@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Header from "../components/header"
 import coverStyle from "../styles/modules/bookCover.module.css"
 import Cover from '../components/bookCover'
 
@@ -9,10 +10,10 @@ export default ({data}) => {
   return(
     <Layout>
       <SEO title="Todo o conteúdo"/>
+      <Header isHome={true}/>
         <ul className={coverStyle.wrapper}>
           {data.allMarkdownRemark.edges.map( ({ node }, index) => (
             <li key={node.id} data-tale-number={index + 1}>
-              {console.log(node.frontmatter.featured.childImageSharp.fluid)}
               <Cover
                 title={node.frontmatter.title}
                 excerpt={node.excerpt}

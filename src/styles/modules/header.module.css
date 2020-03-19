@@ -10,3 +10,7 @@
 .mainTitle {
     margin-bottom: var(--baseline);
 }
+
+.imageHero {
+    margin-top: calc((var(--baselineDouble) + var(--baselineDouble)) * -1);
+}

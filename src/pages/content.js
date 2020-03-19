@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
+import Header from '../components/header'
 import texts from '../styles/modules/texts.module.css'
 
 export default ({ data }) => {
@@ -15,6 +16,7 @@ export default ({ data }) => {
               image={image}
               pathname={post.fields.slug}
             />
+            <Header />
             <article className={texts.article}>
               <h1 className={texts.title}>{post.frontmatter.title}</h1>
               <div dangerouslySetInnerHTML={{ __html: post.html }} className={texts.container} />
