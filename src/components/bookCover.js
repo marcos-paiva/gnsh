@@ -4,20 +4,23 @@ import cover from '../styles/modules/bookCover.module.css'
 import { Link } from 'gatsby'
 import ChevronRight from '../static/icon-chevron-right.inline.svg'
 
-import Img from 'gatsby-image'
-
 const bookCover = ({title, category, readtime, image, excerpt, url}) => {
     return (
         <Link to={url} className={cover.item}>
-            <h2 className={cover.title}>{title}</h2>
-            <h4 className={cover.readtime}>{`${readtime} de leitura`}</h4>
+            <header>
+                <h2 className={cover.title}>{title}</h2>
+                <h4 className={cover.readtime}>{`${readtime}min de leitura`}</h4>
+            </header>
+
             <footer className={cover.footer}>
-                <span className={cover.categories}>
-                    Clássicos, contos
-                </span>
-                <span className={`btn btn-circle ${cover.link}`}>
+                <ul className={cover.categories}>
+                    {category.map((tag,i) => {
+                        return (<li key={i}>{tag}</li>)
+                    }) }
+                </ul>
+                <div className={`btn btn-circle ${cover.link}`}>
                     <ChevronRight/>
-                </span>
+                </div>
             </footer>
         </Link>
     )

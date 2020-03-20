@@ -2,6 +2,9 @@
 title: "O Mágico de Oz"
 date: "2017-08-10"
 featured: "images/magico-oz-main.jpg"
+categories:
+    - Clássicos
+    - Fantasia
 ---
 
 Era uma vez uma menina chamada Doroti. Ela vivia numa fazenda com a tia Ema, tio Henrique e seu cãozinho chamado Totó. Ela passava o tempo todo brincando com ele.

@@ -19,6 +19,7 @@ export default ({data}) => {
                 readtime={node.timeToRead}
                 excerpt={node.excerpt}
                 url={node.fields.slug}
+                category={node.frontmatter.categories}
                 image={node.frontmatter.featured.childImageSharp.fluid}
               />
             </li>
@@ -38,6 +39,7 @@ export const query = graphql`
           timeToRead
           frontmatter {
             title
+            categories
             date(formatString: "DD MMMM, YYYY")
             featured {
               childImageSharp {
