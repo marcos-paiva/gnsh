@@ -1,15 +1,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import covers from '../styles/modules/bookCover.module.css'
+import cover from '../styles/modules/bookCover.module.css'
 import { Link } from 'gatsby'
+import ChevronRight from '../static/icon-chevron-right.inline.svg'
+
 import Img from 'gatsby-image'
 
 const bookCover = ({title, category, readtime, image, excerpt, url}) => {
     return (
-        <Link to={url} className={covers.item}>
-            <h2>{title}</h2>
-            <p>{excerpt}</p>
-            <Img fluid={image} alt={title}/>
+        <Link to={url} className={cover.item}>
+            <h2 className={cover.title}>{title}</h2>
+            <footer className={cover.footer}>
+                <span>
+                    Clássicos, contos
+                </span>
+                <span className={`btn btn-circle ${cover.link}`}>
+                    <ChevronRight/>
+                </span>
+            </footer>
         </Link>
     )
 }

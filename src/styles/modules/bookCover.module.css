@@ -8,17 +8,43 @@
 }
 
 .item {
-    padding: 30px;
-    margin: 15px;
-    background-color: var(--bgSecondColor);
+    padding: var(--baseline);
+    margin: var(--baselineHalf);
+    background-color: var(--bgColor);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: calc(30px * 5);
     color: var(--textColor);
     text-decoration: none;
+    border: var(--baselineHalf) solid #ffffff;
 
     &:hover {
-        background-color: var(--secondColor);
+        .link {
+            color: var(--greenColor);
+
+            svg {
+                fill: var(--greenColor);
+            }
+        }
+    }
+}
+
+.title {
+    margin-bottom: calc(var(--baseline) * 3 );
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    margin: 0;
+    display: block;
+    color: var(--thirdColor);
+
+    svg {
+        fill: var(--thirdColor);
     }
 }
