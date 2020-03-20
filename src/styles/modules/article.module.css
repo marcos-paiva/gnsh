@@ -1,0 +1,23 @@
+.global {
+    width: 90%;
+    margin: 0 auto;
+
+    @media (--medium-viewport) {
+        width: 60%;
+    }
+}
+
+.container {
+    p {
+        margin-bottom: var(--baseline);
+    }
+}
+
+.title {
+    composes: title from "./bookCover.module.css";
+    font-size: 4rem;
+}
+
+.header {
+    margin-bottom: var(--baselineDouble);
+}

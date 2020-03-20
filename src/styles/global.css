@@ -1,16 +1,8 @@
-:root {
-  --mainColor: #F18871;
-  --mainColorSecondary: #F4D0C1;
-  --secondColor: #C7B053;
-  --textColor: #012722;
-}
-@custom-media --medium-viewport (min-width: 768px);
-@custom-media --desktop-viewport (min-width: 992px);
-
 body {
-  background-color: var(--mainColorSecondary);
+  background-color: var(--bgColor);
   color: var(--textColor);
   font-size: 18px;
+  font-family: Merriweather, serif;
 }
 
 p {
@@ -25,4 +17,26 @@ p {
   @media (--desktop-viewport) {
     width: 1140px;
   }
+}
+
+/* Global headers */
+:--heading {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3.3333333333333335rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+}
+
+.grid-1of2 {
+  width: 50%;
 }
