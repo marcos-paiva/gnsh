@@ -28,6 +28,10 @@ h1 {
   font-size: 3.3333333333333335rem;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
 .grid {
   width: 100%;
   display: flex;
