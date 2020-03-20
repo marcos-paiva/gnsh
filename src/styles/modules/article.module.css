@@ -1,4 +1,4 @@
-.article {
+.global {
     width: 90%;
     margin: 0 auto;
 
@@ -14,6 +14,10 @@
 }
 
 .title {
-    margin-bottom: var(--baselineDouble);
+    composes: title from "./bookCover.module.css";
     font-size: 4rem;
+}
+
+.header {
+    margin-bottom: var(--baselineDouble);
 }
