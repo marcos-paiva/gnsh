@@ -10,7 +10,7 @@ Um dia, houve uma ventania tão forte que a casa da fazenda foi levada pelos are
 
 Na terra de Oz havia quatro fadas. Duas eram boas e viviam uma no Norte e outra no Sul. Duas eram más e moravam no Leste e no Oeste. Quando a casa da fazenda caiu no chão, esmagou a Fada Má do Leste e ela morreu.
 
-
+## Um dia com eles
 
 A boa Fada do Norte agradeceu a Doroti por ter libertado os comilões, que viviam escravizados pela Fada Má do Leste. Depois a Fada ofereceu ajuda a Doroti:
 
