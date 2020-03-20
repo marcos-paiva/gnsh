@@ -19,6 +19,7 @@ export default ({ data }) => {
             <Header />
             <article className={texts.article}>
               <h1 className={texts.title}>{post.frontmatter.title}</h1>
+              <h3>{post.timeToRead}</h3>
               <div dangerouslySetInnerHTML={{ __html: post.html }} className={texts.container} />
             </article>
         </Layout>
@@ -35,6 +36,7 @@ export const query = graphql`
           }
         markdownRemark(fields: { slug: { eq: $slug } }) {
           html
+          timeToRead
           excerpt(pruneLength: 160)
           fields {
             slug

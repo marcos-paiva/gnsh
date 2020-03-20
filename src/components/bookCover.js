@@ -10,8 +10,9 @@ const bookCover = ({title, category, readtime, image, excerpt, url}) => {
     return (
         <Link to={url} className={cover.item}>
             <h2 className={cover.title}>{title}</h2>
+            <h4 className={cover.readtime}>{`${readtime} de leitura`}</h4>
             <footer className={cover.footer}>
-                <span>
+                <span className={cover.categories}>
                     Clássicos, contos
                 </span>
                 <span className={`btn btn-circle ${cover.link}`}>

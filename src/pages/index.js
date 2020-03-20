@@ -16,6 +16,7 @@ export default ({data}) => {
             <li key={node.id} data-tale-number={index + 1}>
               <Cover
                 title={node.frontmatter.title}
+                readtime={node.timeToRead}
                 excerpt={node.excerpt}
                 url={node.fields.slug}
                 image={node.frontmatter.featured.childImageSharp.fluid}
@@ -34,6 +35,7 @@ export const query = graphql`
         node {
           id
           excerpt
+          timeToRead
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
