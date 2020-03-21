@@ -21,9 +21,18 @@ const Layout = ({ children }) => {
   `)
 
   return (
+    <>
     <main className="container">
       {children}
     </main>
+    <footer>
+      <div className="container">
+        <p>
+          Feito com ❤️☕️no meio da pandemia 🦠
+        </p>
+      </div>
+    </footer>
+    </>
   )
 }
 
