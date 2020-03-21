@@ -19,6 +19,10 @@ p {
   }
 }
 
+.footer {
+  margin: var(--baselineDouble) 0;
+}
+
 /* Global headers */
 :--heading {
   font-weight: 400;
