@@ -1,8 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import l from '../styles/modules/logo.module.css'
-import Logo from '../static/logo.inline.svg'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -21,11 +19,8 @@ const Layout = ({ children }) => {
     </main>
     <footer className="footer">
       <div className="container">
-        <p>
-        <Logo className={l.logo} />
-
-          Feito com ❤️☕️no meio da pandemia 🦠de COVID-17
-        </p>
+        <p>Feito com ❤️☕️no meio da pandemia 🦠de COVID-19</p>
+        <p>Projeto no <a href="https://github.com/marcos-paiva/gnsh">GitHub</a></p>
       </div>
     </footer>
     </>
