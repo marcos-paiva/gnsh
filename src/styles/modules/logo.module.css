@@ -1,0 +1,8 @@
+.logo {
+    .letterG,
+    .letterN,
+    .letterS,
+    .letterH {
+        fill: var(--mainColor);
+    }
+}
