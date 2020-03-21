@@ -18,7 +18,12 @@
     border: var(--baselineHalf) solid #ffffff;
     height: calc(var(--baseline) * 12);
 
+    transition: all 600ms var(--easeOutExpo);
+
     &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 var(--baseline) var(--baselineDouble) rgba(0, 0, 0, .1);
+
         .link {
             color: var(--greenColor);
 
@@ -40,6 +45,16 @@
 
 .categories {
     font-size: .9rem;
+    list-style: none;
+    margin: 0;
+
+    li {
+        display: inline-block;
+
+        + li {
+            margin-left: calc( var(--baseline) * .5 );
+        }
+    }
 }
 
 .footer {
