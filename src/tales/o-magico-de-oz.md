@@ -7,7 +7,7 @@ categories:
     - Fantasia
 ---
 
-Era uma vez uma menina chamada Doroti. Ela vivia numa fazenda com a tia Ema, tio Henrique e seu cãozinho chamado Totó. Ela passava o tempo todo brincando com ele.
+Era #:poop: uma vez uma menina chamada Doroti. Ela vivia numa fazenda com a tia Ema, tio Henrique e seu cãozinho chamado Totó. Ela passava o tempo todo brincando com ele.
 
 Um dia, houve uma ventania tão forte que a casa da fazenda foi levada pelos ares. Doroti e Totó, que estavam lá dentro, foram carregados para a terra de Oz.
 
