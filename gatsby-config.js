@@ -26,6 +26,15 @@ module.exports = {
               disableBgImage: true,
             },
           },
+          {
+            resolve: 'gatsby-remark-emojis',
+            options: {
+              active: true,
+              class: `inline-emoji`,
+              escapeCharacter: `#`,
+              size: 16
+            }
+          },
         ],
       },
     },
@@ -74,14 +83,6 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: `gatsby-plugin-web-font-loader`,
-      options: {
-        google: {
-          families: [`Merriweather:400`]
-        }
-      }
-    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

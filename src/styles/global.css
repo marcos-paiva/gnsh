@@ -2,7 +2,7 @@ body {
   background-color: var(--bgColor);
   color: var(--textColor);
   font-size: 18px;
-  font-family: Merriweather, serif;
+  font-family: Helvetica,Arial,sans-serif;
 }
 
 p {
@@ -25,7 +25,7 @@ p {
 
 /* Global headers */
 :--heading {
-  font-weight: 400;
+  font-weight: bold;
 }
 
 h1 {
