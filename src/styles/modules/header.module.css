@@ -1,7 +1,24 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    color: var(--textColor);
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover {
+        text-decoration: none;
+        color: var(--thirdColor);
+    }
+}
+
 .logo {
     display: block;
     width: 156px;
-    margin-bottom: var(--baselineDouble);
 }
 
 .header {
@@ -10,8 +27,4 @@
 
 .mainTitle {
     margin-bottom: var(--baseline);
-}
-
-.imageHero {
-    margin-top: calc((var(--baselineDouble) + var(--baselineDouble)) * -1);
 }
