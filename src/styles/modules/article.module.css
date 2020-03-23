@@ -1,5 +1,5 @@
 .global {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 
     @media (--medium-viewport) {
@@ -24,4 +24,7 @@
 
 .category {
     composes: categories from "./bookCover.module.css";
+    border: var(--radius) solid var(--bgSecondColor);
+    border-radius: var(--radius);
+    padding: var(--baseline);
 }

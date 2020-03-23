@@ -12,6 +12,7 @@
     --baseline: 30px;
     --baselineDouble: 60px;
     --baselineHalf: 15px;
+    --radius: 3px;
 
     /* Custom easing */
     --easeOutExpo:  cubic-bezier(0.075, 0.820, 0.165, 1.000);

@@ -13,8 +13,6 @@ O primeiro porquinho, que era o mais preguiçoso de todos, foi logo optando por 
 
 O segundo porquinho, que era menos preguiçoso que o primeiro mas que tampouco gostava de trabalhar, construiu uma casa de madeira, porque pensava que era mais prática e resistente.
 
-
-
 O terceiro porquinho, o mais sensato de todos e mais trabalhador, preferiu construir uma casa de tijolos. Demorou mais para construí-la mas depois de três dias de intenso trabalho a casa estava prontinha.
 
 Os três porquinhos ouviram falar que um perigoso lobo rondava pelo bosque. E não demorou muito para que aparecesse pelas suas casas, em busca de uma boa carne de porco para comer.
@@ -28,8 +26,6 @@ O lobo insistiu e disse:
 – Abra logo esta porta ou soprarei e soprarei e a sua casa destruirei.
 
 Vendo que o porquinho não abria a porta da casa, o lobo começou a soprar e soprar tão forte que a casa de palha voou pelos ares. O porquinho, desesperado, acabou correndo em direção à casa de madeira do seu irmão. O lobo correu atrás dele, mas não conseguiu alcançá-lo.
-
-
 
 O lobo então foi bater na porta da casa do segundo porquinho. O porquinho, tentando intimidá-lo disse:
 
