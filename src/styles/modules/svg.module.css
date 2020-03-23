@@ -1,0 +1,6 @@
+.hero {
+    width: 100%;
+    @media (--desktop-viewport) {
+        width: 434px;
+    }
+}
