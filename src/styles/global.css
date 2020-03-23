@@ -39,8 +39,15 @@ h2 {
 .grid {
   width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .grid-1of2 {
   width: 50%;
+}
+
+.right-block {
+  display: flex;
+  justify-content: flex-end;
 }
