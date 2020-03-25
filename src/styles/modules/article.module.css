@@ -22,9 +22,20 @@
     margin-bottom: var(--baselineDouble);
 }
 
-.category {
-    composes: categories from "./bookCover.module.css";
-    border: var(--radius) solid var(--bgSecondColor);
-    border-radius: var(--radius);
+.data {
+    display: flex;
+    align-items: center;
+    border: calc(var(--baselineHalf) / 2) solid #ffffff;
+    border-radius: var(--baselineHalf);
     padding: var(--baseline);
+
+}
+
+.dataImage {
+    width: 85px;
+}
+
+.dataContent {
+    margin-left: var(--baseline);
+    font-size: 1.2rem;
 }
