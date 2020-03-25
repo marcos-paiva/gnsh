@@ -6,8 +6,8 @@ categories:
     - Clássicos
     - Infantil
 ---
-
-Era uma vez uma feliz família de porquinhos que tinha três filhos. Os porquinhos foram crescendo e os pais notavam que estavam muito dependentes. Não ajudavam no trabalho de casa nem se esforçavam em nada. Então um dia, eles se reuniram e decidiram que os porquinhos, que já estavam bem crescidos, fossem morar sozinhos. Os pais deram um pouco de dinheiro a cada um, alguns bons conselhos. Os três porquinhos partiram para o bosque em busca de um bom lugar para construir, cada um, a sua casa.
+## Era uma vez...
+uma feliz família de porquinhos que tinha três filhos. Os porquinhos foram crescendo e os pais notavam que estavam muito dependentes. Não ajudavam no trabalho de casa nem se esforçavam em nada. Então um dia, eles se reuniram e decidiram que os porquinhos, que já estavam bem crescidos, fossem morar sozinhos. Os pais deram um pouco de dinheiro a cada um, alguns bons conselhos. Os três porquinhos partiram para o bosque em busca de um bom lugar para construir, cada um, a sua casa.
 
 O primeiro porquinho, que era o mais preguiçoso de todos, foi logo optando por construir uma casa rápida e que não necessitasse muito esforço. E construiu uma casa de palha, embora os seus irmãos lhe tenham dito que não era segura.
 
