@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import Seo from '../components/seo'
 import Header from '../components/header'
 import TaleData from '../components/taleData'
+import TaleShare from '../components/taleShare'
 import Article from '../styles/modules/article.module.css'
 
 export default ({ data }) => {
@@ -24,6 +25,7 @@ export default ({ data }) => {
                 <TaleData time={post.timeToRead} topics={post.frontmatter.categories}/>
               </header>
               <div dangerouslySetInnerHTML={{ __html: post.html }} className={Article.container} />
+              <TaleShare/>
             </article>
         </Layout>
     )
