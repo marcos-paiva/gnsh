@@ -8,8 +8,13 @@
 }
 
 .container {
+    h2{
+        margin-bottom: var(--baseline);
+    }
+
     p {
         margin-bottom: var(--baseline);
+        font-size: 1.2rem;
     }
 }
 
@@ -27,8 +32,9 @@
     align-items: center;
     border: calc(var(--baselineHalf) / 2) solid #ffffff;
     border-radius: var(--baselineHalf);
-    padding: var(--baseline);
-
+    margin: var(--baselineDouble) 0;
+    padding: var(--baselineHalf) var(--baseline);
+    width: 60%;
 }
 
 .dataImage {
@@ -38,4 +44,9 @@
 .dataContent {
     margin-left: var(--baseline);
     font-size: 1.2rem;
+
+    p {
+        font-size: 1.2rem;
+        margin-bottom: var(--baselineHalf);
+    }
 }
