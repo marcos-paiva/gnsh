@@ -19,7 +19,6 @@
     border: var(--baselineHalf) solid #ffffff;
     border-radius: var(--baselineHalf);
     height: calc(var(--baseline) * 12);
-
     transition: all 600ms var(--easeOutExpo);
 
     &:hover {
