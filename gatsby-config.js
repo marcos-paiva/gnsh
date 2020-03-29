@@ -6,6 +6,7 @@ module.exports = {
     author: `@marcos-paiva`,
     siteUrl: `http://localhost:8000`,
   },
+  pathPrefix: `/gnsh`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
