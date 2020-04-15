@@ -1,0 +1,19 @@
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: var(--baseline) 0 0;
+}
+
+.btn {
+    width: calc(var(--baseline) * 1.5);
+    height: calc(var(--baseline) * 1.5);
+    transition: all 300ms var(--easeOutExpo);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
