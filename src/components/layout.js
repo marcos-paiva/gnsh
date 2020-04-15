@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
     </main>
     <footer className="footer">
       <div className="container">
-        <p>Feito com <span role="img">❤️☕️</span>no meio da pandemia 🦠de COVID-19</p>
+        <p>Feito com <span role="img">❤️☕️</span>no meio da pandemia <span role="img">🦠</span>de COVID-19</p>
         <p>Projeto no <a href="https://github.com/marcos-paiva/gnsh">GitHub</a></p>
       </div>
     </footer>
