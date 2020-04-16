@@ -35,6 +35,7 @@ const bookCover = ({title, category, readtime, image, excerpt, url}) => {
     )
 }
 
+
 bookCover.propTypes = {
     title: PropTypes.string.isRequired,
     category: PropTypes.array,
