@@ -8,27 +8,27 @@ import TaleShare from '../components/taleShare'
 import Article from '../styles/modules/article.module.css'
 
 export default ({ data }) => {
-    const post = data.markdownRemark
-    const image = post.frontmatter.featured ? post.frontmatter.featured.childImageSharp.resize : null
+  const post = data.markdownRemark
+  const image = post.frontmatter.featured ? post.frontmatter.featured.childImageSharp.resize : null
 
-    return(
-        <Layout>
-            <Seo
-              title={post.frontmatter.title}
-              image={image}
-              pathname={post.fields.slug}
-            />
-            <Header />
-            <article className={Article.global}>
-              <header className={Article.header}>
-                <h1 className={Article.title}>{post.frontmatter.title}</h1>
-                <TaleData time={post.timeToRead} topics={post.frontmatter.categories}/>
-              </header>
-              <div dangerouslySetInnerHTML={{ __html: post.html }} className={Article.container} />
-              <TaleShare/>
-            </article>
-        </Layout>
-    )
+  return(
+    <Layout>
+      <Seo
+        title={post.frontmatter.title}
+        image={image}
+        pathname={post.fields.slug}
+      />
+      <Header />
+      <article className={Article.global}>
+        <header className={Article.header}>
+          <h1 className={Article.title}>{post.frontmatter.title}</h1>
+          <TaleData time={post.timeToRead} topics={post.frontmatter.categories}/>
+        </header>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} className={Article.container} />
+        <TaleShare/>
+      </article>
+    </Layout>
+  )
 }
 
 export const query = graphql`

@@ -16,7 +16,6 @@ const ShareButtons = () => {
     const effect = file => {
         file.play()
         console.log(file);
-
     }
 
     return(

@@ -9,7 +9,7 @@ const TaleShare = ({time, topics}) => {
     return(
         <section className={Article.data}>
             <section className={Article.dataImage}>
-            <GirlShare/>
+                <GirlShare/>
             </section>
             <section className={Article.dataContent}>
                 <h5>Antes de ir, compartilhe essa história com a sua rede</h5>
