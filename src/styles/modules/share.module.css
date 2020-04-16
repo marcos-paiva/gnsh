@@ -1,19 +1,24 @@
 .list {
     list-style: none;
     display: flex;
-    justify-content: space-between;
     margin: var(--baseline) 0 0;
+
+    li {
+        margin-right: var(--baseline);
+    }
 }
 
 .btn {
     width: calc(var(--baseline) * 1.5);
     height: calc(var(--baseline) * 1.5);
-    transition: all 300ms var(--easeOutExpo);
+    transition: transform 600ms var(--easeOutExpo);
     background: transparent;
     border: none;
     cursor: pointer;
+    color: var(--textColor);
+    overflow: hidden;
 
     &:hover {
-        transform: scale(1.05);
+        transform: scale(1.1);
     }
 }
