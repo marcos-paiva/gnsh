@@ -3,19 +3,19 @@ import PropTypes from 'prop-types'
 import cover from '../styles/modules/bookCover.module.css'
 import { Link } from 'gatsby'
 import ChevronRight from '../static/icon-chevron-right.inline.svg'
-import AudioHover from '../static/audio/action-hover.wav'
-import AudioClick from '../static/audio/action-click.wav'
+// import AudioHover from '../static/audio/action-hover.wav'
+// import AudioClick from '../static/audio/action-click.wav'
 
 const bookCover = ({title, category, readtime, image, excerpt, url}) => {
-    const AudioHoverFile = new Audio(AudioHover)
-    const AudioClickFile = new Audio(AudioClick)
+    // const AudioHoverFile = new Audio(AudioHover)
+    // const AudioClickFile = new Audio(AudioClick)
 
-    const effect = file => {
-        file.play()
-    }
+    // const effect = file => {
+    //     file.play()
+    // }
 
     return (
-        <Link to={url} className={cover.item} onClick={ effect(AudioClickFile) }>
+        <Link to={url} className={cover.item}>
             <header>
                 <h2 className={cover.title}>{title}</h2>
                 <h4 className={cover.readtime}>{`${readtime}min de leitura`}</h4>
