@@ -2,6 +2,11 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+// Get CSS
+import '../styles/variables.css'
+import '../styles/reset.css'
+import '../styles/global.css'
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
