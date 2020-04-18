@@ -51,3 +51,12 @@ h2 {
   display: flex;
   justify-content: flex-end;
 }
+
+.book-wrapper {
+  list-style: none;
+  display: grid;
+  grid-area: books;
+  width: 90%;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
