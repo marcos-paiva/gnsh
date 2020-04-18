@@ -5,6 +5,8 @@ import Seo from '../components/seo'
 import Header from '../components/header'
 import TaleData from '../components/taleData'
 import TaleShare from '../components/taleShare'
+
+import '../styles/variables.css'
 import Article from '../styles/modules/article.module.css'
 
 export default ({ data }) => {
@@ -18,13 +20,18 @@ export default ({ data }) => {
         image={image}
         pathname={post.fields.slug}
       />
+
       <Header />
+
       <article className={Article.global}>
+
         <header className={Article.header}>
           <h1 className={Article.title}>{post.frontmatter.title}</h1>
           <TaleData time={post.timeToRead} topics={post.frontmatter.categories}/>
         </header>
+
         <div dangerouslySetInnerHTML={{ __html: post.html }} className={Article.container} />
+
         <TaleShare/>
       </article>
     </Layout>

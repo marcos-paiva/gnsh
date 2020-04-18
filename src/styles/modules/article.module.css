@@ -1,10 +1,6 @@
 .global {
     width: 80%;
-    margin: 0 auto;
-
-    @media (--medium-viewport) {
-        width: 60%;
-    }
+    margin: calc(var(--baselineDouble) * 2) auto;
 }
 
 .container {
