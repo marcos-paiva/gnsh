@@ -30,7 +30,11 @@
     border-radius: var(--baselineHalf);
     margin: var(--baselineDouble) 0;
     padding: var(--baselineHalf) var(--baseline);
-    width: 70%;
+    width: 100%;
+
+    @media (--desktop-viewport) {
+        width: calc( var(--baseline) * 15 );
+    }
 }
 
 .dataImage {
