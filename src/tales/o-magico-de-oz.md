@@ -7,7 +7,10 @@ categories:
     - Fantasia
 ---
 
-Era #:poop: uma vez uma menina chamada Doroti. Ela vivia numa fazenda com a tia Ema, tio Henrique e seu cãozinho chamado Totó. Ela passava o tempo todo brincando com ele.
+## Era uma vez..
+
+uma menina chamada Doroti. Ela vivia numa fazenda com a **tia Ema**, **tio Henrique** e seu cãozinho chamado **Totó**. Ela passava o tempo todo brincando com ele.
+* * *
 
 Um dia, houve uma ventania tão forte que a casa da fazenda foi levada pelos ares. Doroti e Totó, que estavam lá dentro, foram carregados para a terra de Oz.
 
@@ -25,8 +28,6 @@ Mais adiante, os três encontraram um Lenhador de Lata, que desejava possuir um 
 
 – Venha conosco! – convidou Doroti – O Mágico de Oz lhe dará um!
 
-![Imagem de um coelhinho](/images/o-magico-de-oz-1.jpg)
-
 Logo depois, os quatro encontraram um Leão. Os cinco amigos viajaram muitos dias pela estrada de tijolos amarelos. Depois de várias aventuras, chegaram ao castelo do Mágico de Oz. Um de cada vez foi levado à sala do trono para falar com ele.
 
 O Leão pediu ao mágico que lhe desse coragem. O Lenhador de Lata queria um coração. O Espantalho pediu um cérebro e Doroti queria voltar para a fazenda de seus tios. O Mágico de Oz prometeu atender ao pedido de todos, se eles matassem a Fada Má do Oeste.
@@ -34,6 +35,8 @@ O Leão pediu ao mágico que lhe desse coragem. O Lenhador de Lata queria um cor
 A menina foi atrás da Fada Má, que depois de tentar por varias vezes amedrontá-los. Doroti pegou um balde de água e jogou em cima dela:
 
 – Socorro! – gritou a bruxa – Estou encolhendo!
+
+* * *
 
 Era verdade. A água fazia a bruxa diminuir de tamanho. A bruxa foi ficando cada vez menor, até que sumiu.
 
