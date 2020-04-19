@@ -3,8 +3,9 @@ title: "O Mágico de Oz"
 date: "2017-08-10"
 featured: "images/magico-oz-main.jpg"
 categories:
-    - Clássicos
+    - Amizade
     - Fantasia
+author:
 ---
 
 ## Era uma vez..

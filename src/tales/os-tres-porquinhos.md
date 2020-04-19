@@ -5,69 +5,73 @@ featured: images/tres-porquinhos-main.jpg
 categories:
     - Clássicos
     - Infantil
+source: Andrew Lang, The Green Fairy Book - 1906
 ---
+
 ## Era uma vez...
-uma feliz família de porquinhos que tinha três filhos. Os porquinhos foram crescendo e os pais notavam que estavam muito dependentes. Não ajudavam no trabalho de casa nem se esforçavam em nada. Então um dia, eles se reuniram e decidiram que os porquinhos, que já estavam bem crescidos, fossem morar sozinhos.
 
-Os pais deram um pouco de dinheiro a cada um, alguns bons conselhos. Os três porquinhos partiram para o bosque em busca de um bom lugar para construir, cada um, a sua casa.
+um porco que morava com seus três filhos em um grande e confortável curral à moda antiga. O mais velho dos porquinhos chamava-se Browny, o segundo Whitey e o mais jovem e bonito Blacky. Agora Browny era um porquinho muito sujo e, lamento dizer, passava a maior parte do tempo rolando e chafurdando na lama. Ele nunca estava tão feliz como em um dia chuvoso, quando a lama no curral ficava macia, espessa e com laje. Então ele se afastava do lado de sua mãe e, encontrando o lugar mais lamacento do quintal, rolava nele e se divertia completamente.
 
-* * *
+Sua mãe freqüentemente achava que ele era culpado por isso, e balançava a cabeça tristemente e dizia: "Ah, Browny! Algum dia você vai se arrepender de não ter obedecido à sua mãe velha".
 
-O **primeiro porquinho**, que era o mais preguiçoso de todos, foi logo optando por construir uma casa rápida e que não necessitasse muito esforço. E construiu uma casa de palha, embora os seus irmãos lhe tenham dito que não era segura.
+Mas nenhuma palavra de conselho ou aviso poderia curar Browny de seus maus hábitos.
 
-O **segundo porquinho**, que era menos preguiçoso que o primeiro mas que tampouco gostava de trabalhar, construiu uma casa de madeira, porque pensava que era mais prática e resistente.
+Whitey era um porquinho bastante inteligente, mas era gananciosa. Ela estava sempre pensando em sua comida e ansiosa pelo jantar. E quando a garota da fazenda era vista carregando os baldes do outro lado do quintal, ela se erguia nas patas traseiras e dançava e empinava com entusiasmo. Assim que a comida foi despejada na calha, ela empurrou Blacky e Browny para fora do caminho em sua ânsia de conseguir os melhores e maiores pedaços para si mesma. Sua mãe costumava repreendê-la por seu egoísmo e disse que um dia ela sofreria por ser tão gananciosa e agarrada.
 
-O **terceiro porquinho**, o mais sensato de todos e mais trabalhador, preferiu construir uma casa de tijolos. Demorou mais para construí-la mas depois de três dias de intenso trabalho a casa estava prontinha.
-
-Os três porquinhos ouviram falar que um perigoso lobo rondava pelo bosque. E não demorou muito para que aparecesse pelas suas casas, em busca de uma boa carne de porco para comer.
+Blacky era um porquinho bom e agradável, nem sujo nem ganancioso. Ele tinha bons modos delicados (para um porco), e sua pele era sempre tão lisa e brilhante quanto o cetim preto. Ele era muito mais esperto que Browny e Whitey, e o coração de sua mãe costumava inchar de orgulho quando ela ouvia os amigos do fazendeiro dizerem um ao outro que algum dia o pequeno negro seria um porco premiado.
 
 * * *
 
-O lobo então foi bater na porta da casa do primeiro porquinho. O porquinho, tentando intimidá-lo disse:
+Agora chegou a hora em que a mãe porco se sentiu velha, fraca e perto de seu fim. Um dia, ela chamou os três porquinhos à sua volta e disse: "Meus filhos, sinto que estou ficando velha e fraca e que não vou viver muito. Antes de morrer, gostaria de construir uma casa para cada um de vocês, como esse querido velho chiqueiro em que vivemos tão felizes será entregue a uma nova família de porcos, e você terá que aparecer. Agora, Browny, que tipo de casa você gostaria de ter? "
 
-– Vá embora seu lobo. Aqui você não vai entrar.
+"Uma casa de barro", respondeu Browny, olhando ansiosamente para uma poça molhada no canto do quintal.
 
-O lobo insistiu e disse:
+"E você, Whitey?" disse a mãe porco com uma voz bastante triste, pois estava desapontada por Browny ter feito uma escolha tão tola.
 
-– Abra logo esta porta ou soprarei e soprarei e a sua casa destruirei.
+"Uma casa de repolho", respondeu Whitey, com a boca cheia e mal erguendo o focinho da calha em que ela estava procurando algumas fatias de batata.
 
-Vendo que o porquinho não abria a porta da casa, o lobo começou a soprar e soprar tão forte que a casa de palha voou pelos ares. O porquinho, desesperado, acabou correndo em direção à casa de madeira do seu irmão. O lobo correu atrás dele, mas não conseguiu alcançá-lo.
+"Criança tola e tola!" disse a mãe porco, parecendo bastante angustiada. "E você, Blacky?" voltando-se para o filho mais novo. "Que tipo de casa devo pedir para você?"
 
-O lobo então foi bater na porta da casa do segundo porquinho. O porquinho, tentando intimidá-lo disse:
+"Uma casa de tijolos, por favor, mãe, pois estará quente no inverno e fresco no verão, e seguro durante todo o ano."
 
-– Vá embora seu lobo. Na minha casa de madeira você não vai conseguir entrar.
+"Esse é um porquinho sensato", respondeu sua mãe, olhando-o com carinho. - Vou ver que as três casas estão prontas de uma só vez. E agora um último conselho. Você me ouviu falar do nosso velho inimigo, a raposa. Quando ele souber que estou morto, ele certamente tentará se apossar. de você, para levá-lo para o esconderijo dele. Ele é muito astuto e sem dúvida se disfarçará e fingirá ser um amigo, mas você deve me prometer que não o deixará entrar em suas casas sob qualquer pretexto. "
 
-O lobo insistiu e disse:
+E os porquinhos prometeram prontamente, pois sempre tiveram um grande medo da raposa, de quem ouviram muitas histórias terríveis.
 
-– Abram logo esta porta ou soprarei e soprarei e esta casa destruirei.
+Pouco tempo depois, o velho porco morreu e os porquinhos foram morar em suas próprias casas.
 
-Vendo que os porquinhos não abriam a porta da casa, o lobo começou a soprar e soprar tão forte que a casa de madeira caiu e ficou em pedaços. Os porquinhos, desesperados, acabaram correndo em direção à casa de tijolo e cimento do outro irmão. O lobo correu atrás deles, mas não conseguiu alcançá-los.
+Browny ficou muito satisfeito com suas paredes de barro macias e com o chão de barro, que logo parecia nada além de uma grande torta de barro. Mas era disso que Browny gostava, e ele estava o mais feliz possível, rolando o dia inteiro e se metendo em tanta confusão.
 
-O lobo então foi bater na porta da casa do terceiro porquinho. Os porquinhos tentando intimidá-lo cantaram:
+Um dia, enquanto estava deitado meio adormecido na lama, ouviu uma batida suave na porta e uma voz suave disse: "Posso entrar, mestre Browny? Quero ver sua linda casa nova".
 
-Quem tem medo do lobo mau
-Lobo mau, lobo mau?!
-Quem tem medo do lobo mau?!
-Ele é um cara legal!
+"Quem é Você?" - disse Browny, assustado, pois, embora a voz soasse suave, ele tinha certeza de que era uma voz fingida e temia que fosse a raposa.
 
-O lobo ficava cada vez mais furioso e gritou:
+"Eu sou um amigo, venha chamá-lo", respondeu a voz.
 
-– Abram a porta, já!!!
+"Não, não", respondeu Browny, "não acredito que você seja um amigo. Você é a raposa perversa, contra quem nossa mãe nos avisou. Não vou deixar você entrar".
 
-E os porquinhos responderam:
+"Oho! É assim que você me responde?" disse a raposa, falando muito rudemente em sua voz natural. "Logo veremos quem é o senhor aqui", e com as patas começou a trabalhar e abriu um grande buraco nas paredes de barro macio. Um momento depois, ele pulou por ele e, pegando Browny pelo pescoço, jogou-o nos ombros e trotou com ele até a toca.
 
-– Vá embora seu lobo. Você não conseguirá derrubar esta casa porque está feita com tijolo e cimento.
+No dia seguinte, quando Whitey mastigava algumas folhas de repolho no canto de sua casa, a raposa se aproximou de sua porta, determinada a levá-la para se juntar a seu irmão em seu esconderijo. Ele começou a falar com ela na mesma voz suave e fingida em que ele havia falado com Browny. Mas isso a assusta muito quando ele diz: "Sou um amigo que vem visitá-lo e comer um pouco do seu bom repolho no meu jantar".
 
-O lobo insistiu e disse:
+"Por favor, não toque", exclamou Whitey, angustiado. "Os repolhos são as paredes da minha casa, e se você os comer, fará um buraco, o vento e a chuva entrarão e me darão um resfriado. Vá embora. Tenho certeza de que você não é um amigo, mas nosso inimigo mau a raposa. "
 
-– Abram logo esta porta ou soprarei e soprarei e esta casa destruirei.
+E o pobre Whitey começou a lamentar-se e a choramingar, e a desejar que ela não fosse um porquinho tão ganancioso, e escolheu um material mais sólido do que repolhos para sua casa. Mas já era tarde demais, e em mais um minuto a raposa havia atravessado as paredes de repolho, capturado o tremor, tremendo Whitey e levado-a para a toca.
 
-Vendo que os porquinhos não abriam a porta da casa, o lobo começou a soprar, soprar, soprar, e a casa continuava inteira no seu lugar. O lobo ficou tão cansado que acabou sentando-se ao pé da porta para descansar. Enquanto isso, pensou e pensou em como entrar na casa e teve uma idéia. Foi buscar uma escada para subir ao telhado da casa e entrar na casa pela chaminé. Os porquinhos, vendo o que tramava o lobo, reagiram logo. Puseram a ferver um balde enorme de água, e o colocou no final da chaminé e esperaram.
+No dia seguinte, a raposa partiu para a casa de Blacky, porque havia decidido reunir os três porquinhos em sua cova, depois matá-los e convidar todos os seus amigos para um banquete. Mas, quando chegou à casa de tijolos, descobriu que a porta estava trancada e trancada, e, à sua maneira astuta, começou: "Deixe-me entrar, querido Blacky. Trouxe um presente de alguns ovos que peguei em uma curral no meu caminho até aqui. "
 
-Quando o lobo entrou na chaminé, caiu bem dentro do balde cheio de água fervendo.
+"Não, senhor Fox", respondeu Blacky. "Não quero abrir minha porta para você. Conheço seus modos astutos. Você carregou os pobres Browny e Whitey, mas não vai me pegar."
 
-– Uai, uai, Uaiiiiii!!!!!!!! Gritou o lobo, saindo correndo ao lago para aliviar as suas queimaduras e assustado, nunca mais voltou a molestar os porquinhos.
+A raposa ficou tão zangada que correu com toda a força contra a parede e tentou derrubá-la. Mas era muito forte e bem construído. E embora a raposa arranhasse e rasgasse os tijolos com as patas, ele apenas se machucou e, por fim, teve que desistir e mancar com as patas dianteiras todo sangrando e dolorido.
+
+"Deixa pra lá!" ele chorou com raiva quando saiu. "Eu vou te pegar outro dia, ver se eu não fizer, e eu não vou moer seus ossos em pó quando eu tiver você na minha toca!" E ele rosnou ferozmente e mostrou os dentes.
+
+No dia seguinte, Blacky teve que ir à cidade vizinha para fazer marketing e comprar uma chaleira grande. Enquanto caminhava para casa com a mochila pendurada no ombro, ouviu um som de passos furtivamente rastejando atrás dele. Por um momento, seu coração ficou parado de medo, e então um pensamento feliz veio a ele. Acabara de chegar ao topo de uma colina e podia ver sua casinha aninhada ao pé dela, entre as árvores. Em um momento ele arrancou a tampa da chaleira e pulou dentro de si. Enrolando-se, ele estava bem deitado no fundo da chaleira, enquanto com a perna dianteira ele conseguia colocar a tampa, para ficar completamente escondido. Com um pequeno chute por dentro, ele começou a chaleira e, descendo a colina, rolou a todo vapor. E quando a raposa apareceu, tudo o que viu foi uma grande chaleira preta girando sobre o chão em um grande ritmo. Muito desapontado, ele estava indo embora, quando viu a chaleira parar perto da casinha de tijolos e, um momento depois, Blacky pulou dela e escapou com a chaleira para dentro da casa, quando trancou e trancou a porta. porta e coloque o obturador sobre a janela.
+
+"Oh o!" exclamou a raposa para si mesmo. "Você acha que vai me escapar assim, não é? Veremos em breve, meu amigo." Muito silenciosamente e furtivamente, ele rondou a casa procurando uma maneira de subir no telhado.
+
+Enquanto isso, Blacky encheu a chaleira com água e, depois de colocá-la no fogo, sentou-se em silêncio, esperando que fervesse. No instante em que a chaleira estava começando a cantar e a sair vapor da bica, ele ouviu um som suave e abafado, tamborilar, tamborilar, tamborilar no alto, e no momento seguinte a cabeça e as patas da raposa foram vistas descendo pela chaminé. Mas Blacky sabiamente não havia colocado a tampa na chaleira e, com um grito de dor, a raposa caiu na água fervente e, antes que pudesse escapar, Blacky abriu a tampa e a raposa foi queimada até a morte.
+
+Assim que teve certeza de que o inimigo perverso estava realmente morto e não poderia causar mais danos, Blacky começou a resgatar Browny e Whitey. Ao se aproximar da sala, ouviu grunhidos e gritos piedosos de seu pobre irmãozinho e irmã que viviam em constante terror da raposa matando e comendo-os. Mas quando viram Blacky aparecer na entrada da cova, a alegria deles não tinha limites. Ele rapidamente encontrou uma pedra afiada e cortou os cordões pelos quais estavam amarrados a uma estaca no chão, e então os três partiram juntos para a casa de Blacky, onde viveram felizes para sempre. E Browny desistiu de rolar na lama, e Whitey deixou de ser ganancioso, pois nunca esqueceram como essas falhas os levaram a um fim prematuro.
 
 * * *
-
-E quanto aos porquinhos, aprenderam a lição de que tudo o que é feito com esforço tem melhor resultado. Os três porquinhos decidiram morar juntos e todos viveram felizes e harmonia.
