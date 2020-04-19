@@ -32,6 +32,9 @@ export default ({ data }) => {
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} className={Article.container} />
 
+        <footer>
+          <p><strong>Fonte:</strong> {post.frontmatter.source}</p>
+        </footer>
         <TaleShare/>
       </article>
     </Layout>
@@ -56,6 +59,7 @@ export const query = graphql`
           frontmatter {
             title
             categories
+            source
             featured {
               childImageSharp {
                 resize(width: 1200, cropFocus: CENTER, quality: 80) {
