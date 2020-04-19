@@ -1,5 +1,5 @@
 .global {
-    width: 80%;
+    width: 60%;
     margin: calc(var(--baselineDouble) * 2) auto;
 }
 
@@ -10,7 +10,16 @@
 
     p {
         margin-bottom: var(--baseline);
-        font-size: 1.2rem;
+        font-size: 1.167rem;
+        line-height: 1.8;
+    }
+
+    hr {
+        margin: var(--baselineDouble) 0;
+        border: none;
+        background-image: url('../../static/icons/divider.svg');
+        width: 50px;
+        height: 10px;
     }
 }
 
