@@ -2,9 +2,7 @@
 title: Os três porquinhos
 date: "2017-08-21"
 featured: images/tres-porquinhos-main.jpg
-categories:
-    - Clássicos
-    - Infantil
+categories: ["Clássicos", "Infantil"]
 source: Andrew Lang, The Green Fairy Book - 1906
 ---
 
