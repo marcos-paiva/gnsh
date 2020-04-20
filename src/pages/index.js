@@ -19,7 +19,6 @@ export default ({data}) => {
                 readtime={node.timeToRead}
                 excerpt={node.excerpt}
                 url={node.fields.slug}
-                category={node.frontmatter.categories}
                 image={node.frontmatter.featured.childImageSharp.fluid}
               />
             </li>
