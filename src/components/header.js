@@ -10,7 +10,7 @@ const Header = ({data, isHome}) => (
   <header className={head.header}>
     <nav className={head.nav}>
       <Link to="/" className={head.logo}><Logo /></Link>
-      <Link to="/sobre" className={head.link}>Sobre o projeto</Link>
+      <Link to="/tema/" className={head.link}>Histórias por tema</Link>
     </nav>
     {isHome &&
     <section className='grid'>

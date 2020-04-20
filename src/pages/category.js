@@ -10,20 +10,16 @@ import Header from '../components/header'
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
-  const tagHeader = `${totalCount} post${
+  const tagHeader = `${totalCount} história${
     totalCount === 1 ? "" : "s"
-  } tagged with "${tag}"`
+  } no tema ${tag}`
 
   return (
     <Layout>
-      <Seo
-        title=''
-      />
-
+      <Seo title={tagHeader} />
       <Header />
-
+      <Link to="/tema/">Ver todos temas</Link>
       <h1>{tagHeader}</h1>
-
       <ul>
         {edges.map(({ node }) => {
           const { slug } = node.fields

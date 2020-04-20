@@ -5,8 +5,13 @@ import PropTypes from "prop-types"
 import kebabCase from "lodash/kebabCase"
 
 // Components
-import { Helmet } from "react-helmet"
 import { Link, graphql } from "gatsby"
+
+// Internal components
+import Layout from '../components/layout'
+import Seo from '../components/seo'
+import Header from '../components/header'
+
 
 const TagsPage = ({
   data: {
@@ -16,10 +21,10 @@ const TagsPage = ({
     },
   },
 }) => (
-  <div>
-    <Helmet title={title} />
-    <div>
-      <h1>Tags</h1>
+  <Layout>
+    <Seo title={title} />
+    <Header/>
+      <h1>Temas</h1>
       <ul>
         {group.map(tag => (
           <li key={tag.fieldValue}>
@@ -29,8 +34,7 @@ const TagsPage = ({
           </li>
         ))}
       </ul>
-    </div>
-  </div>
+  </Layout>
 )
 
 TagsPage.propTypes = {
@@ -62,9 +66,9 @@ export const pageQuery = graphql`
         }
         allMarkdownRemark(limit: 2000) {
             group(field: frontmatter___tags) {
-                fieldValue
-                totalCount
-            }
+              fieldValue
+              totalCount
+          }
         }
     }
 `
