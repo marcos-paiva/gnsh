@@ -13,11 +13,6 @@ const TaleData = ({time, topics}) => {
                 <h5>Tempo médio</h5>
                 <p>{`${time} min de leitura`}</p>
                 <h5>Temas</h5>
-                <p>
-                    {topics.map((item, i) => {
-                        return (` ${item}`)
-                    })}
-                </p>
             </section>
         </section>
     )

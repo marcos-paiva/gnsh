@@ -27,7 +27,7 @@ export default ({ data }) => {
 
         <header className={Article.header}>
           <h1 className={Article.title}>{post.frontmatter.title}</h1>
-          <TaleData time={post.timeToRead} topics={post.frontmatter.categories}/>
+          <TaleData time={post.timeToRead}/>
         </header>
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} className={Article.container} />

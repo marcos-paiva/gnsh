@@ -14,11 +14,6 @@ const bookCover = ({title, category, readtime, image, excerpt, url}) => {
             </header>
 
             <footer className={Cover.footer}>
-                <ul className={Cover.categories}>
-                    {category.map((tag,i) => {
-                        return (<li key={i}>{tag}</li>)
-                    }) }
-                </ul>
                 <div className={`btn btn-circle ${Cover.link}`}>
                     <ChevronRight/>
                 </div>
