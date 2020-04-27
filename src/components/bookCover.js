@@ -10,7 +10,7 @@ const bookCover = ({title, category, readtime, image, excerpt, url}) => {
         <Link to={url} className={Cover.item}>
             <header>
                 <h2 className={Cover.title}>{title}</h2>
-                <h4 className={Cover.readtime}>{`${readtime}min de leitura`}</h4>
+                <h4 className={Cover.subTitle}>{`${readtime}min de leitura`}</h4>
             </header>
 
             <footer className={Cover.footer}>
