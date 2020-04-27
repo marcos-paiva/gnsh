@@ -26,12 +26,16 @@
     }
 }
 
+.itemSmall {
+    composes: item;
+    height: calc(var(--baseline) * 5);
+}
+
 .title {
     margin-bottom: var(--baselineHalf);
 }
 
-.readtime {
-    margin-bottom: calc(var(--baseline) * 3 );
+.subTitle {
     font-size: 1rem;
 }
 

@@ -31,10 +31,7 @@ const Tags = ({ pageContext, data }) => {
           )
         })}
       </ul>
-      {/*
-        This links to a page that does not yet exist.
-        You'll come back to it!
-      */}
+
       <Link to="/tema/">All tags</Link>
     </Layout>
 

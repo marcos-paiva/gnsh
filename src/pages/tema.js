@@ -11,48 +11,51 @@ import { Link, graphql } from "gatsby"
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 import Header from '../components/header'
+import Cover from '../components/catCover'
 
 
 const TagsPage = ({
-  data: {
-    allMarkdownRemark: { group },
-    site: {
-      siteMetadata: { title },
+
+    data: {
+        allMarkdownRemark: { group },
+        site: {
+            siteMetadata: { title },
+        },
     },
-  },
-}) => (
-  <Layout>
-    <Seo title={title} />
-    <Header/>
-      <h1>Temas</h1>
-      <ul>
-        {group.map(tag => (
-          <li key={tag.fieldValue}>
-            <Link to={`/tema/${kebabCase(tag.fieldValue)}/`}>
-              {tag.fieldValue} ({tag.totalCount})
-            </Link>
-          </li>
-        ))}
-      </ul>
-  </Layout>
+    }) => (
+    <Layout>
+        <Seo title={title} />
+        <Header title="Temas"/>
+        <ul className="book-wrapper">
+            {group.map( tag => (
+            <li key={tag.fieldValue}>
+                <Cover
+                    title={tag.fieldValue}
+                    readtime={tag.totalCount}
+                    url={`/tema/${kebabCase(tag.fieldValue)}/`}
+                />
+            </li>
+            ))}
+        </ul>
+    </Layout>
 )
 
 TagsPage.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      group: PropTypes.arrayOf(
-        PropTypes.shape({
-          fieldValue: PropTypes.string.isRequired,
-          totalCount: PropTypes.number.isRequired,
-        }).isRequired
-      ),
+    data: PropTypes.shape({
+        allMarkdownRemark: PropTypes.shape({
+            group: PropTypes.arrayOf(
+            PropTypes.shape({
+                fieldValue: PropTypes.string.isRequired,
+                totalCount: PropTypes.number.isRequired,
+            }).isRequired
+            ),
+        }),
+        site: PropTypes.shape({
+            siteMetadata: PropTypes.shape({
+                title: PropTypes.string.isRequired,
+            }),
+        }),
     }),
-    site: PropTypes.shape({
-      siteMetadata: PropTypes.shape({
-        title: PropTypes.string.isRequired,
-      }),
-    }),
-  }),
 }
 
 export default TagsPage

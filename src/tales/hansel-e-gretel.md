@@ -2,7 +2,7 @@
 title: Gretel e Hansel
 date: "2017-08-21"
 featured: "images/magico-oz-main.jpg"
-tags: ["Contos Populares", "Folclore", "Contos de Fadas", "Mitologia"]
+tags: ["Contos Populares", "Folclore", "Contos de Fadas", "Mitologia", "Amizade"]
 source: Jacob and Wilhelm Grimm - http://www.pitt.edu/~dash/grimm015.html
 ---
 
