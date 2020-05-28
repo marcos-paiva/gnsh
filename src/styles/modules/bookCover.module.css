@@ -5,9 +5,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: var(--textColor);
+  color: #fff;
   text-decoration: none;
-  border: var(--baselineHalf) solid #ffffff;
   border-radius: var(--baselineHalf);
   height: calc(var(--baseline) * 9);
   transition: all 600ms var(--easeOutExpo);
@@ -17,11 +16,19 @@
     box-shadow: 0 var(--baseline) var(--baselineDouble) rgba(0, 0, 0, 0.1);
 
     .link {
-      color: var(--greenColor);
+      color: #fff;
 
       svg {
-        fill: var(--greenColor);
+        fill: #fff;
       }
+    }
+  }
+
+  .link {
+    color: #fff;
+
+    svg {
+      fill: #fff;
     }
   }
 }
