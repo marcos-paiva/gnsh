@@ -2,7 +2,7 @@ body {
   background-color: var(--bgColor);
   color: var(--textColor);
   font-size: 18px;
-  font-family: Helvetica,Arial,sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 p {
@@ -31,10 +31,12 @@ p {
 
 h1 {
   font-size: 4rem;
+  letter-spacing: -2px;
 }
 
 h2 {
   font-size: 2rem;
+  letter-spacing: -1px;
 }
 
 .grid {
@@ -57,7 +59,6 @@ h2 {
   list-style: none;
   display: grid;
   grid-area: books;
-  width: 80%;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
 }

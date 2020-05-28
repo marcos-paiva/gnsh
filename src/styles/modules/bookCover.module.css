@@ -1,70 +1,70 @@
 .item {
-    padding: var(--baseline);
-    margin: var(--baselineHalf);
-    background-color: var(--bgColor);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: var(--textColor);
-    text-decoration: none;
-    border: var(--baselineHalf) solid #ffffff;
-    border-radius: var(--baselineHalf);
-    height: calc(var(--baseline) * 12);
-    transition: all 600ms var(--easeOutExpo);
+  padding: var(--baseline);
+  margin: var(--baselineHalf);
+  background-color: var(--bgColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--textColor);
+  text-decoration: none;
+  border: var(--baselineHalf) solid #ffffff;
+  border-radius: var(--baselineHalf);
+  height: calc(var(--baseline) * 9);
+  transition: all 600ms var(--easeOutExpo);
 
-    &:hover {
-        transform: scale(1.05);
-        box-shadow: 0 var(--baseline) var(--baselineDouble) rgba(0, 0, 0, .1);
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 var(--baseline) var(--baselineDouble) rgba(0, 0, 0, 0.1);
 
-        .link {
-            color: var(--greenColor);
+    .link {
+      color: var(--greenColor);
 
-            svg {
-                fill: var(--greenColor);
-            }
-        }
+      svg {
+        fill: var(--greenColor);
+      }
     }
+  }
 }
 
 .itemSmall {
-    composes: item;
-    height: calc(var(--baseline) * 5);
+  composes: item;
+  height: calc(var(--baseline) * 5);
 }
 
 .title {
-    margin-bottom: var(--baselineHalf);
+  margin-bottom: var(--baselineHalf);
 }
 
 .subTitle {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .categories {
-    font-size: .9rem;
-    list-style: none;
-    margin: 0;
+  font-size: 0.9rem;
+  list-style: none;
+  margin: 0;
 
-    li {
-        display: inline-block;
+  li {
+    display: inline-block;
 
-        + li {
-            margin-left: calc( var(--baseline) * .5 );
-        }
+    + li {
+      margin-left: calc(var(--baseline) * 0.5);
     }
+  }
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .link {
-    margin: 0;
-    display: block;
-    color: var(--thirdColor);
+  margin: 0;
+  display: block;
+  color: var(--thirdColor);
 
-    svg {
-        fill: var(--thirdColor);
-    }
+  svg {
+    fill: var(--thirdColor);
+  }
 }
