@@ -2,7 +2,7 @@ body {
   background-color: var(--bgColor);
   color: var(--textColor);
   font-size: 18px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .container {
