@@ -3,38 +3,38 @@ import PropTypes from "prop-types"
 
 // Components
 import { Link, graphql } from "gatsby"
-import Layout from '../components/layout'
-import Seo from '../components/seo'
-import Header from '../components/header'
+
+// Internal components
+import Layout from "../components/layout"
+import Seo from "../components/seo"
+import Header from "../components/header"
+import Cover from "../components/bookCover"
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
   const tagHeader = `${totalCount} história${
     totalCount === 1 ? "" : "s"
-  } no tema ${tag}`
+  } sobre ${tag}`
 
   return (
     <Layout>
       <Seo title={tagHeader} />
-      <Header />
-      <Link to="/tema/">Ver todos temas</Link>
-      <h1>{tagHeader}</h1>
-      <ul>
-        {edges.map(({ node }) => {
-          const { slug } = node.fields
-          const { title } = node.frontmatter
-          return (
-            <li key={slug}>
-              <Link to={slug}>{title}</Link>
-            </li>
-          )
-        })}
+      <Header title={tagHeader} />
+      <ul className="book-wrapper">
+        {edges.map(({ node }) => (
+          <li key={node.fields.slug}>
+            <Cover
+              title={node.frontmatter.title}
+              readtime={node.timeToRead}
+              excerpt={node.excerpt}
+              url={node.fields.slug}
+            />
+          </li>
+        ))}
       </ul>
-
       <Link to="/tema/">All tags</Link>
     </Layout>
-
   )
 }
 
@@ -79,6 +79,8 @@ export const pageQuery = graphql`
           frontmatter {
             title
           }
+          timeToRead
+          excerpt
         }
       }
     }
