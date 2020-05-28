@@ -1,0 +1,7 @@
+.foot {
+  margin-top: var(--baselineDouble);
+}
+
+.paragraph {
+  font-size: 1rem;
+}

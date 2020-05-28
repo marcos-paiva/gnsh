@@ -6,6 +6,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import "../styles/variables.css"
 import "../styles/reset.css"
 import "../styles/global.css"
+import Footer from "../styles/modules/footer.module.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -20,14 +21,14 @@ const Layout = ({ children }) => {
   return (
     <>
       <main className="container">{children}</main>
-      <footer className="footer">
+      <footer className={Footer.foot}>
         <div className="container">
-          <p>
+          <p className={Footer.paragraph}>
             Feito com <span role="img">❤️☕️</span>no meio da pandemia{" "}
             <span role="img">🦠</span>de COVID-19
           </p>
-          <p>
-            Projeto no{" "}
+          <p className={Footer.paragraph}>
+            Projeto no
             <a href="https://github.com/marcos-paiva/gnsh" className="link">
               GitHub
             </a>
