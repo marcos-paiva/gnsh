@@ -39,6 +39,18 @@ h2 {
   letter-spacing: -1px;
 }
 
+.link {
+  color: var(--textColor);
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+
+  &:hover {
+    text-decoration: none;
+    color: var(--thirdColor);
+  }
+}
+
 .grid {
   width: 100%;
   display: flex;
@@ -60,5 +72,5 @@ h2 {
   display: grid;
   grid-area: books;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 0 auto;
+  margin: var(--baseline) auto;
 }

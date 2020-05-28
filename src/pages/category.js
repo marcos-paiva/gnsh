@@ -21,6 +21,9 @@ const Tags = ({ pageContext, data }) => {
     <Layout>
       <Seo title={tagHeader} />
       <Header title={tagHeader} />
+      <Link to="/tema/" className="link">
+        Todos os temas
+      </Link>
       <ul className="book-wrapper">
         {edges.map(({ node }) => (
           <li key={node.fields.slug}>
@@ -33,7 +36,6 @@ const Tags = ({ pageContext, data }) => {
           </li>
         ))}
       </ul>
-      <Link to="/tema/">All tags</Link>
     </Layout>
   )
 }

@@ -4,18 +4,6 @@
   align-items: center;
 }
 
-.link {
-  color: var(--textColor);
-  font-size: 1rem;
-  text-decoration: none;
-  font-weight: 600;
-
-  &:hover {
-    text-decoration: none;
-    color: var(--thirdColor);
-  }
-}
-
 .logo {
   display: block;
   width: 156px;
@@ -26,5 +14,5 @@
 }
 
 .mainTitle {
-  margin-bottom: var(--baseline);
+  margin: var(--baseline) 0;
 }
