@@ -3,9 +3,9 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 // Get CSS
-import '../styles/variables.css'
-import '../styles/reset.css'
-import '../styles/global.css'
+import "../styles/variables.css"
+import "../styles/reset.css"
+import "../styles/global.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -19,15 +19,21 @@ const Layout = ({ children }) => {
   `)
   return (
     <>
-    <main className="container">
-      {children}
-    </main>
-    <footer className="footer">
-      <div className="container">
-        <p>Feito com <span role="img">❤️☕️</span>no meio da pandemia <span role="img">🦠</span>de COVID-19</p>
-        <p>Projeto no <a href="https://github.com/marcos-paiva/gnsh">GitHub</a></p>
-      </div>
-    </footer>
+      <main className="container">{children}</main>
+      <footer className="footer">
+        <div className="container">
+          <p>
+            Feito com <span role="img">❤️☕️</span>no meio da pandemia{" "}
+            <span role="img">🦠</span>de COVID-19
+          </p>
+          <p>
+            Projeto no{" "}
+            <a href="https://github.com/marcos-paiva/gnsh" className="link">
+              GitHub
+            </a>
+          </p>
+        </div>
+      </footer>
     </>
   )
 }
