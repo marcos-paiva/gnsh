@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: var(--baseline);
 }
 
 .logo {
@@ -15,4 +16,12 @@
 
 .mainTitle {
   margin: var(--baseline) 0;
+  line-height: 1;
+}
+
+.subTitle {
+  font-size: 1.3333333333333333rem;
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: -0.5px;
 }

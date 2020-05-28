@@ -1,72 +1,72 @@
 .global {
-    width: 60%;
-    margin: calc(var(--baselineDouble) * 2) auto;
+  width: 70%;
+  margin: calc(var(--baselineDouble) * 2) auto;
 }
 
 .container {
-    h2{
-        margin-bottom: var(--baseline);
-    }
+  h2 {
+    margin-bottom: var(--baseline);
+  }
+
+  p {
+    margin-bottom: var(--baseline);
+  }
+
+  blockquote {
+    padding-left: var(--baseline);
+    margin: var(--baseline) 0;
+    color: var(--thirdColor);
+    border-left: 5px solid var(--thirdColor);
 
     p {
-        margin-bottom: var(--baseline);
-        font-size: 1.167rem;
-        line-height: 1.8;
+      margin-bottom: 0;
+      font-style: italic;
+      font-weight: 600;
     }
+  }
 
-    blockquote {
-        padding-left: var(--baseline);
-        margin: var(--baseline) 0;
-        border-left: 4px solid;
-
-        p {
-            margin-bottom: 0;
-            font-style: italic;
-        }
-    }
-
-    hr {
-        margin: var(--baselineDouble) 0;
-        border: none;
-        background-image: url('../../static/icons/divider.svg');
-        width: 50px;
-        height: 10px;
-    }
+  hr {
+    margin: var(--baselineDouble) 0;
+    border: none;
+    background-image: url("../../static/icons/divider.svg");
+    width: 50px;
+    height: 10px;
+  }
 }
 
 .title {
-    composes: title from "./bookCover.module.css";
-    font-size: 4rem;
+  composes: title from "./bookCover.module.css";
+  font-size: 4rem;
 }
 
 .header {
-    margin-bottom: var(--baselineDouble);
+  margin-bottom: var(--baselineDouble);
 }
 
 .data {
-    display: flex;
-    align-items: center;
-    border: calc(var(--baselineHalf) / 2) solid #ffffff;
-    border-radius: var(--baselineHalf);
-    margin: var(--baselineDouble) 0;
-    padding: var(--baselineHalf) var(--baseline);
-    width: 100%;
+  display: flex;
+  align-items: center;
+  border: calc(var(--baselineHalf) / 2) solid #ffffff;
+  border-radius: var(--baselineHalf);
+  margin: var(--baselineDouble) 0;
+  padding: var(--baselineHalf) var(--baseline);
+  width: 100%;
 
-    @media (--desktop-viewport) {
-        width: calc( var(--baseline) * 15 );
-    }
+  @media (--desktop-viewport) {
+    width: calc(var(--baseline) * 15);
+  }
 }
 
 .dataImage {
-    width: 85px;
+  width: 85px;
 }
 
 .dataContent {
-    margin-left: var(--baseline);
-    font-size: 1.2rem;
+  margin-left: var(--baseline);
+  font-size: 1.2rem;
 
-    p {
-        font-size: 1.2rem;
-        margin-bottom: var(--baselineHalf);
-    }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: var(--baselineHalf);
+  }
 }

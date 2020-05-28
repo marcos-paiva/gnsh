@@ -26,7 +26,11 @@ const Header = ({ data, isHome, title }) => {
         <section className="grid">
           <section className="grid-1of2">
             <h1 className={head.mainTitle}>{title}</h1>
-            {isHome && <p>{data.site.siteMetadata.description}</p>}
+            {isHome && (
+              <p className={head.subTitle}>
+                {data.site.siteMetadata.description}
+              </p>
+            )}
           </section>
           {isHome && (
             <section className="grid-1of2 right-block">
