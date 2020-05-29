@@ -2,11 +2,12 @@
   padding: var(--baseline);
   margin: var(--baselineHalf);
   background-color: var(--thirdColor);
+  color: var(--mainColor);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-decoration: none;
-  border-radius: var(--baselineHalf);
+  border-radius: var(--radiusDouble);
   height: calc(var(--baseline) * 9);
   transition: all 600ms var(--easeOutExpo);
 
