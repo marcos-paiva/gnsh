@@ -15,12 +15,6 @@ const catCover = ({title, readtime, url}) => {
                 <h2 className={Cover.title}>{title}</h2>
                 <h4 className={Cover.subTitle}>{`${readtime} história${messageSuffix}`}</h4>
             </header>
-
-            <footer className={Cover.footer}>
-                <div className={`btn btn-circle ${Cover.link}`}>
-                    <ChevronRight/>
-                </div>
-            </footer>
         </Link>
     )
 }
