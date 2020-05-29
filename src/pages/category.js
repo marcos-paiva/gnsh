@@ -32,6 +32,7 @@ const Tags = ({ pageContext, data }) => {
               readtime={node.timeToRead}
               excerpt={node.excerpt}
               url={node.fields.slug}
+              theme={node.frontmatter.theme}
             />
           </li>
         ))}
@@ -80,6 +81,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            theme
           }
           timeToRead
           excerpt

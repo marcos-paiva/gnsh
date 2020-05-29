@@ -21,6 +21,7 @@ export default ({ data }) => {
               excerpt={node.excerpt}
               url={node.fields.slug}
               image={node.frontmatter.featured.childImageSharp.fluid}
+              theme={node.frontmatter.theme}
             />
           </li>
         ))}
@@ -41,6 +42,7 @@ export const query = graphql`
             title
             categories
             date(formatString: "DD MMMM, YYYY")
+            theme
             featured {
               childImageSharp {
                 fluid(maxHeight: 800, jpegProgressive: true) {
