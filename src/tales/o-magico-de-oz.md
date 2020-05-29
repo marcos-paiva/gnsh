@@ -2,6 +2,7 @@
 title: "O Mágico de Oz"
 date: "2017-08-10"
 featured: "images/magico-oz-main.jpg"
+theme: hope
 tags: ["Amizade", "Fantasia"]
 author:
 ---
