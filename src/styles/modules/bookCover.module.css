@@ -5,7 +5,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: #fff;
   text-decoration: none;
   border-radius: var(--baselineHalf);
   height: calc(var(--baseline) * 9);
@@ -14,23 +13,22 @@
   &:hover {
     transform: scale(1.02) translateY(-3px);
     box-shadow: 0 var(--baseline) var(--baselineDouble) rgba(0, 0, 0, 0.1);
-
-    .link {
-      color: #fff;
-
-      svg {
-        fill: #fff;
-      }
-    }
   }
+}
 
-  .link {
-    color: #fff;
+.sepia {
+  background-color: var(--bgSecondColor);
+  color: var(--textColor);
+}
 
-    svg {
-      fill: #fff;
-    }
-  }
+.dark {
+  background-color: var(--mainColor);
+  color: var(--bgColor);
+}
+
+.hope {
+  background-color: var(--greenColor);
+  color: var(--bgColor);
 }
 
 .itemSmall {
@@ -57,21 +55,5 @@
     + li {
       margin-left: calc(var(--baseline) * 0.5);
     }
-  }
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.link {
-  margin: 0;
-  display: block;
-  color: var(--thirdColor);
-
-  svg {
-    fill: var(--thirdColor);
   }
 }
