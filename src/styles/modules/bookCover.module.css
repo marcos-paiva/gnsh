@@ -1,7 +1,7 @@
 .item {
   padding: var(--baseline);
   margin: var(--baselineHalf);
-  background-color: var(--bgColor);
+  background-color: var(--thirdColor);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -12,7 +12,7 @@
   transition: all 600ms var(--easeOutExpo);
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.02) translateY(-3px);
     box-shadow: 0 var(--baseline) var(--baselineDouble) rgba(0, 0, 0, 0.1);
 
     .link {
