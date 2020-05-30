@@ -11,7 +11,7 @@
 .btn {
     width: calc(var(--baseline) * 1.5);
     height: calc(var(--baseline) * 1.5);
-    transition: transform 600ms var(--easeOutExpo);
+    transition: transform 600ms var(--customEase);
     background: transparent;
     border: none;
     cursor: pointer;

@@ -16,7 +16,7 @@
     --radiusDouble: 6px;
 
     /* Custom easing */
-    --easeOutExpo:  cubic-bezier(0.075, 0.820, 0.165, 1.000);
+    --customEase:  cubic-bezier(0.4, 0, 0.2, 1);
   }
   @custom-media --medium-viewport (min-width: 768px);
   @custom-media --desktop-viewport (min-width: 992px);
