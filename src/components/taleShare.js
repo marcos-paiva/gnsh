@@ -1,5 +1,5 @@
 import React from "react"
-import PropTypes from "prop-types"
+// import PropTypes from "prop-types"
 import Article from "../styles/modules/article.module.css"
 import GirlShare from "../static/persons/girl-sharing.inline.svg"
 
@@ -19,8 +19,8 @@ const TaleShare = ({ time, topics }) => {
   )
 }
 
-TaleShare.propTypes = {}
+// TaleShare.propTypes = {}
 
-TaleShare.defaultProps = {}
+// TaleShare.defaultProps = {}
 
 export default TaleShare

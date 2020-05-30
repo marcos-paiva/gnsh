@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
 import Cover from '../styles/modules/bookCover.module.css'
-import ChevronRight from '../static/icon-chevron-right.inline.svg'
 
 const catCover = ({title, readtime, url}) => {
 

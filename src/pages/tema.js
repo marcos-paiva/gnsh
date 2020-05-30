@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 import kebabCase from "lodash/kebabCase"
 
 // Components
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 // Internal components
 import Layout from "../components/layout"
