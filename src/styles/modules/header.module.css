@@ -8,6 +8,36 @@
 .logo {
   display: block;
   width: 156px;
+
+  svg {
+    overflow: visible;
+  }
+}
+
+.logo:hover svg path {
+  animation-duration: .9s;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: center;
+
+  &:nth-child(1) {
+    animation-name: action-tada;
+    animation-delay: 0;
+  }
+
+  &:nth-child(2) {
+    animation-name: action-jelly;
+    animation-delay: .1s;
+  }
+
+  &:nth-child(3) {
+    animation-name: action-groove;
+    animation-delay: .2s;
+  }
+
+  &:nth-child(4) {
+    animation-name: action-shake;
+    animation-delay: .3s;
+  }
 }
 
 .header {
@@ -24,4 +54,90 @@
   line-height: 1.4;
   font-weight: 600;
   letter-spacing: -0.5px;
+}
+
+
+/* Micron CSS inspired https://github.com/webkul/micron */
+@keyframes action-tada {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.1) rotate(3deg);
+  }
+  40% {
+    transform: scale(0.97);
+  }
+  60% {
+    transform: scale(0.99) rotate(-3deg);
+  }
+  80% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes action-jelly {
+  0% {
+    transform: scaleX(1);
+  }
+  20% {
+    transform: scaleX(0.9) translateY(5px);
+  }
+  50% {
+    transform: scaleX(1.25);
+  }
+  85% {
+    transform: scaleX(0.8);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes action-groove {
+  0% {
+    transform: skewY(0deg) rotate(0deg);
+  }
+  15% {
+    transform: skewY(-10deg) rotateZ(8deg);
+  }
+  35% {
+    transform: skewY(10deg) rotateZ(-8deg);
+  }
+  55% {
+    transform: skewY(-6deg) rotateZ(-4deg);
+  }
+  85% {
+    transform: skewY(6deg) rotateZ(4deg);
+  }
+  100% {
+    transform: skewY(0deg) rotate(0deg);
+  }
+}
+
+@keyframes action-shake {
+  0% {
+    transform: translateX(0px);
+  }
+  15% {
+    transform: translateX(-3px);
+  }
+  25% {
+    transform: translateX(3px) translateX(3px);
+  }
+  45% {
+    transform: translateX(-2px);
+  }
+  65% {
+    transform: translateX(3px);
+  }
+  85% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
