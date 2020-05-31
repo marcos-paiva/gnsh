@@ -20,7 +20,7 @@ const TaleData = ({ time, topics }) => {
 
 TaleData.propTypes = {
   time: PropTypes.number,
-  topics: PropTypes.array,
+  topics: PropTypes.string,
 }
 
 TaleData.defaultProps = {

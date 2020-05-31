@@ -5,6 +5,7 @@ import { Link } from 'gatsby'
 import Cover from '../styles/modules/bookCover.module.css'
 
 const bookCover = ({title, category, readtime, image, excerpt, url, theme}) => {
+
     return (
         <Link to={url} className={`${Cover.item} ${Cover[theme]}`}>
             <header>
@@ -14,7 +15,6 @@ const bookCover = ({title, category, readtime, image, excerpt, url, theme}) => {
         </Link>
     )
 }
-
 
 bookCover.propTypes = {
     title: PropTypes.string.isRequired,
