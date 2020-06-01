@@ -67,11 +67,12 @@ Tags.propTypes = {
 export default Tags
 
 export const pageQuery = graphql`
-  query($tag: String) {
+  query getTheme($tag: String, $skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { tags: { in: [$tag] } } }
+      limit: $limit
+      skip: $skip
     ) {
       totalCount
       edges {
@@ -84,7 +85,6 @@ export const pageQuery = graphql`
             theme
           }
           timeToRead
-          excerpt
         }
       }
     }

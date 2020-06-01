@@ -33,9 +33,14 @@ exports.createPages = async({graphql, actions}) => {
                     }
                 }
             }
-            tagsRemark: allMarkdownRemark (limit: 2000) {
+            tagsRemark: allMarkdownRemark {
                 group(field: frontmatter___tags) {
                     fieldValue
+                    nodes {
+                        fields {
+                            slug
+                        }
+                    }
                 }
             }
         }
@@ -55,13 +60,24 @@ exports.createPages = async({graphql, actions}) => {
     })
 
     const tags = result.data.tagsRemark.group
+    const contentTags = result.data.tagsRemark.group.nodes
+    const postsPerPage = 6
 
-    tags.forEach(tag => {
+    console.log(contentTags)
+
+    //const numPages = Math.ceil(contentTags.length / postsPerPage)
+
+    // path: i === 0 ? `/blog` : `/blog/${i + 1}`
+    // Array.from({ length: numPages }).forEach((_, i) => {
+
+    tags.forEach((_, i, tag) => {
         createPage({
-            path: `/tema/${__.kebabCase(tag.fieldValue)}/`,
+            path: `/tema/${ i === 0 ? __.kebabCase(tag.fieldValue) : __.kebabCase(tag.fieldValue)}/${i + 1}/ }`,
             component: path.resolve(`./src/pages/category.js`),
             context: {
                 tag: tag.fieldValue,
+                limit: postsPerPage,
+                skip: i * postsPerPage
             },
         })
     })
