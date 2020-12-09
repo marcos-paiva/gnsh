@@ -1,6 +1,10 @@
 .global {
   width: 70%;
   margin: calc(var(--baselineDouble) * 2) auto;
+
+  @media (--mobile-viewport) {
+    width: 100%;
+  }
 }
 
 .container {
@@ -45,12 +49,10 @@
 
 .data {
   display: flex;
-  align-items: center;
   border: calc(var(--baselineHalf) / 2) solid #ffffff;
   border-radius: var(--baselineHalf);
   margin: var(--baselineDouble) 0;
   padding: var(--baselineHalf) var(--baseline);
-  width: 100%;
 
   @media (--desktop-viewport) {
     width: calc(var(--baseline) * 15);
@@ -58,7 +60,12 @@
 }
 
 .dataImage {
-  width: 85px;
+
+  width: 50px;
+
+  @media (--desktop-viewport) {
+    width: 85px;
+  }
 }
 
 .dataContent {

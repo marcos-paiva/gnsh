@@ -1,6 +1,5 @@
 .item {
   padding: var(--baseline);
-  margin: var(--baselineHalf);
   background-color: var(--thirdColor);
   color: var(--mainColor);
   display: flex;

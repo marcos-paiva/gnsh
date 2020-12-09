@@ -3,14 +3,17 @@ body {
   color: var(--textColor);
   font-size: 18px;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
   margin: 0 auto;
-  width: 100%;
+  padding: 0 16px;
 
   @media (--desktop-viewport) {
     width: 1140px;
+    padding: 0;
+
   }
 }
 
@@ -20,7 +23,7 @@ body {
 
 /* Global headers */
 :--heading {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h1 {
@@ -47,17 +50,31 @@ p {
 
 .grid-1of2 {
   width: 50%;
+
+  @media (--mobile-viewport) {
+    width: 100%;
+  }
 }
 
 .right-block {
   display: flex;
   justify-content: flex-end;
+
+  @media (--mobile-viewport) {
+    display: none;
+  }
 }
 
 .book-wrapper {
   list-style: none;
   display: grid;
   grid-area: books;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: var(--baseline) auto;
+  column-gap: var(--baseline);
+  row-gap: var(--baseline);
+  grid-template-columns: 1fr;
+
+  @media (--medium-viewport) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
 }
