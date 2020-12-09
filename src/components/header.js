@@ -17,7 +17,7 @@ const Header = ({ data, isHome, title }) => {
         <Link to="/" className={head.logo}>
           <Logo />
         </Link>
-        <Link to="/tema/" className="link">
+        <Link to="/temas/" className="link">
           Histórias por tema
         </Link>
       </nav>
